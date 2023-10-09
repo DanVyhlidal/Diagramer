@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Services.CodeParser\\Diagramer.Services.CodeParser.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.CodeParsers\\Diagramer.Infrastructure.CodeParsers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.CodeParsers\\Diagramer.Infrastructure.CodeParsers.csproj",
+        "projectName": "Diagramer.Infrastructure.CodeParsers",
+        "projectPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.CodeParsers\\Diagramer.Infrastructure.CodeParsers.csproj",
+        "packagesPath": "C:\\Users\\CallM\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.CodeParsers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CallM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\Diagramer.Shared.csproj": {
+                "projectPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\Diagramer.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\CallM\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.FileManagement\\Diagramer.Infrastructure.FileManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.FileManagement\\Diagramer.Infrastructure.FileManagement.csproj",
+        "projectName": "Diagramer.Infrastructure.FileManagement",
+        "projectPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.FileManagement\\Diagramer.Infrastructure.FileManagement.csproj",
+        "packagesPath": "C:\\Users\\CallM\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.FileManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CallM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\Diagramer.Shared.csproj": {
+                "projectPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\Diagramer.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Buildalyzer": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\CallM\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Services.CodeParser\\Diagramer.Services.CodeParser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Services.CodeParser\\Diagramer.Services.CodeParser.csproj",
+        "projectName": "Diagramer.Services.CodeParser",
+        "projectPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Services.CodeParser\\Diagramer.Services.CodeParser.csproj",
+        "packagesPath": "C:\\Users\\CallM\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Services.CodeParser\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CallM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.CodeParsers\\Diagramer.Infrastructure.CodeParsers.csproj": {
+                "projectPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.CodeParsers\\Diagramer.Infrastructure.CodeParsers.csproj"
+              },
+              "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.FileManagement\\Diagramer.Infrastructure.FileManagement.csproj": {
+                "projectPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.FileManagement\\Diagramer.Infrastructure.FileManagement.csproj"
+              },
+              "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\Diagramer.Shared.csproj": {
+                "projectPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\Diagramer.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\CallM\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\Diagramer.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\Diagramer.Shared.csproj",
+        "projectName": "Diagramer.Shared",
+        "projectPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\Diagramer.Shared.csproj",
+        "packagesPath": "C:\\Users\\CallM\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CallM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\CallM\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

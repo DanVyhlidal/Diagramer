@@ -1,0 +1,15 @@
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\bin\Release\net6.0\Diagramer.Infrastructure.Exporters.deps.json
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\bin\Release\net6.0\Diagramer.Infrastructure.Exporters.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\bin\Release\net6.0\Diagramer.Infrastructure.Exporters.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\bin\Release\net6.0\Diagramer.Shared.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\bin\Release\net6.0\Diagramer.Shared.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\obj\Release\net6.0\Diagramer.Infrastructure.Exporters.csproj.AssemblyReference.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\obj\Release\net6.0\Diagramer.Infrastructure.Exporters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\obj\Release\net6.0\Diagramer.Infrastructure.Exporters.AssemblyInfoInputs.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\obj\Release\net6.0\Diagramer.Infrastructure.Exporters.AssemblyInfo.cs
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\obj\Release\net6.0\Diagramer.Infrastructure.Exporters.csproj.CoreCompileInputs.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\obj\Release\net6.0\Diagramer.Infrastructure.Exporters.csproj.CopyComplete
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\obj\Release\net6.0\Diagramer.Infrastructure.Exporters.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\obj\Release\net6.0\refint\Diagramer.Infrastructure.Exporters.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\obj\Release\net6.0\Diagramer.Infrastructure.Exporters.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.Exporters\obj\Release\net6.0\ref\Diagramer.Infrastructure.Exporters.dll

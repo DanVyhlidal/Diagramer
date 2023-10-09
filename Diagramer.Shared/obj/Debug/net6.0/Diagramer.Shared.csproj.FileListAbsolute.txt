@@ -1,0 +1,12 @@
+C:\Dev\Diagramer\Diagramer.Shared\bin\Debug\net6.0\Diagramer.Shared.deps.json
+C:\Dev\Diagramer\Diagramer.Shared\bin\Debug\net6.0\Diagramer.Shared.dll
+C:\Dev\Diagramer\Diagramer.Shared\bin\Debug\net6.0\Diagramer.Shared.pdb
+C:\Dev\Diagramer\Diagramer.Shared\obj\Debug\net6.0\Diagramer.Shared.csproj.AssemblyReference.cache
+C:\Dev\Diagramer\Diagramer.Shared\obj\Debug\net6.0\Diagramer.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Diagramer\Diagramer.Shared\obj\Debug\net6.0\Diagramer.Shared.AssemblyInfoInputs.cache
+C:\Dev\Diagramer\Diagramer.Shared\obj\Debug\net6.0\Diagramer.Shared.AssemblyInfo.cs
+C:\Dev\Diagramer\Diagramer.Shared\obj\Debug\net6.0\Diagramer.Shared.csproj.CoreCompileInputs.cache
+C:\Dev\Diagramer\Diagramer.Shared\obj\Debug\net6.0\Diagramer.Shared.dll
+C:\Dev\Diagramer\Diagramer.Shared\obj\Debug\net6.0\refint\Diagramer.Shared.dll
+C:\Dev\Diagramer\Diagramer.Shared\obj\Debug\net6.0\Diagramer.Shared.pdb
+C:\Dev\Diagramer\Diagramer.Shared\obj\Debug\net6.0\ref\Diagramer.Shared.dll

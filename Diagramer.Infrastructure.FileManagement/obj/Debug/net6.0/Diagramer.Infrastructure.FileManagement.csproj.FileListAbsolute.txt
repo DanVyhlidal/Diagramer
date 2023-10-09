@@ -1,0 +1,15 @@
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\bin\Debug\net6.0\Diagramer.Infrastructure.FileManagement.deps.json
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\bin\Debug\net6.0\Diagramer.Infrastructure.FileManagement.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\bin\Debug\net6.0\Diagramer.Infrastructure.FileManagement.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\bin\Debug\net6.0\Diagramer.Shared.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\bin\Debug\net6.0\Diagramer.Shared.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\obj\Debug\net6.0\Diagramer.Infrastructure.FileManagement.csproj.AssemblyReference.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\obj\Debug\net6.0\Diagramer.Infrastructure.FileManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\obj\Debug\net6.0\Diagramer.Infrastructure.FileManagement.AssemblyInfoInputs.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\obj\Debug\net6.0\Diagramer.Infrastructure.FileManagement.AssemblyInfo.cs
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\obj\Debug\net6.0\Diagramer.Infrastructure.FileManagement.csproj.CoreCompileInputs.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\obj\Debug\net6.0\Diagramer.Infrastructure.FileManagement.csproj.CopyComplete
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\obj\Debug\net6.0\Diagramer.Infrastructure.FileManagement.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\obj\Debug\net6.0\refint\Diagramer.Infrastructure.FileManagement.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\obj\Debug\net6.0\Diagramer.Infrastructure.FileManagement.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.FileManagement\obj\Debug\net6.0\ref\Diagramer.Infrastructure.FileManagement.dll

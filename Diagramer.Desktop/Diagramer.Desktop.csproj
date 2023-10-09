@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Desktop" Version="$(AvaloniaVersion)" />
+    <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Diagram.Services.Exporters\Diagram.Services.Exporters.csproj" />
+    <ProjectReference Include="..\Diagramer.GUI\Diagramer.GUI.csproj" />
+    <ProjectReference Include="..\Diagramer.Infrastructure.DiagramParsers\Diagramer.Infrastructure.DiagramParsers.csproj" />
+    <ProjectReference Include="..\Diagramer.Infrastructure.Exporters\Diagramer.Infrastructure.Exporters.csproj" />
+    <ProjectReference Include="..\Diagramer.Infrastructure.Extensions\Diagramer.Infrastructure.Extensions.csproj" />
+    <ProjectReference Include="..\Diagramer.Repositories\Diagramer.Repositories.csproj" />
+    <ProjectReference Include="..\Diagramer.Services.CodeParser\Diagramer.Services.CodeParser.csproj" />
+    <ProjectReference Include="..\Diagramer.Services.Diagrams\Diagramer.Services.Diagrams.csproj" />
+  </ItemGroup>
+</Project>

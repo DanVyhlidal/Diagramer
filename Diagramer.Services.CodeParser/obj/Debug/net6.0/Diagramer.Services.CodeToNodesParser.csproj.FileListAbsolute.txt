@@ -1,0 +1,15 @@
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\bin\Debug\net6.0\Diagramer.Services.CodeToNodesParser.deps.json
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\bin\Debug\net6.0\Diagramer.Services.CodeToNodesParser.dll
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\bin\Debug\net6.0\Diagramer.Services.CodeToNodesParser.pdb
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\bin\Debug\net6.0\Diagramer.Shared.dll
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\bin\Debug\net6.0\Diagramer.Shared.pdb
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\obj\Debug\net6.0\Diagramer.Services.CodeToNodesParser.csproj.AssemblyReference.cache
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\obj\Debug\net6.0\Diagramer.Services.CodeToNodesParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\obj\Debug\net6.0\Diagramer.Services.CodeToNodesParser.AssemblyInfoInputs.cache
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\obj\Debug\net6.0\Diagramer.Services.CodeToNodesParser.AssemblyInfo.cs
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\obj\Debug\net6.0\Diagramer.Services.CodeToNodesParser.csproj.CoreCompileInputs.cache
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\obj\Debug\net6.0\Diagramer.Services.CodeToNodesParser.csproj.CopyComplete
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\obj\Debug\net6.0\Diagramer.Services.CodeToNodesParser.dll
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\obj\Debug\net6.0\refint\Diagramer.Services.CodeToNodesParser.dll
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\obj\Debug\net6.0\Diagramer.Services.CodeToNodesParser.pdb
+C:\Dev\Diagramer\Diagramer.Services.CodeToNodesParser\obj\Debug\net6.0\ref\Diagramer.Services.CodeToNodesParser.dll

@@ -1,0 +1,15 @@
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\bin\Release\net6.0\Diagramer.Infrastructure.CodeParsers.deps.json
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\bin\Release\net6.0\Diagramer.Infrastructure.CodeParsers.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\bin\Release\net6.0\Diagramer.Infrastructure.CodeParsers.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\bin\Release\net6.0\Diagramer.Shared.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\bin\Release\net6.0\Diagramer.Shared.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\obj\Release\net6.0\Diagramer.Infrastructure.CodeParsers.csproj.AssemblyReference.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\obj\Release\net6.0\Diagramer.Infrastructure.CodeParsers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\obj\Release\net6.0\Diagramer.Infrastructure.CodeParsers.AssemblyInfoInputs.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\obj\Release\net6.0\Diagramer.Infrastructure.CodeParsers.AssemblyInfo.cs
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\obj\Release\net6.0\Diagramer.Infrastructure.CodeParsers.csproj.CoreCompileInputs.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\obj\Release\net6.0\Diagramer.Infrastructure.CodeParsers.csproj.CopyComplete
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\obj\Release\net6.0\Diagramer.Infrastructure.CodeParsers.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\obj\Release\net6.0\refint\Diagramer.Infrastructure.CodeParsers.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\obj\Release\net6.0\Diagramer.Infrastructure.CodeParsers.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.CodeParsers\obj\Release\net6.0\ref\Diagramer.Infrastructure.CodeParsers.dll

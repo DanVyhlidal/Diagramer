@@ -1,0 +1,15 @@
+C:\Dev\Diagramer\Diagramer.Services\bin\Debug\net6.0\Diagramer.Services.deps.json
+C:\Dev\Diagramer\Diagramer.Services\bin\Debug\net6.0\Diagramer.Services.dll
+C:\Dev\Diagramer\Diagramer.Services\bin\Debug\net6.0\Diagramer.Services.pdb
+C:\Dev\Diagramer\Diagramer.Services\bin\Debug\net6.0\Diagramer.Shared.dll
+C:\Dev\Diagramer\Diagramer.Services\bin\Debug\net6.0\Diagramer.Shared.pdb
+C:\Dev\Diagramer\Diagramer.Services\obj\Debug\net6.0\Diagramer.Services.csproj.AssemblyReference.cache
+C:\Dev\Diagramer\Diagramer.Services\obj\Debug\net6.0\Diagramer.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Diagramer\Diagramer.Services\obj\Debug\net6.0\Diagramer.Services.AssemblyInfoInputs.cache
+C:\Dev\Diagramer\Diagramer.Services\obj\Debug\net6.0\Diagramer.Services.AssemblyInfo.cs
+C:\Dev\Diagramer\Diagramer.Services\obj\Debug\net6.0\Diagramer.Services.csproj.CoreCompileInputs.cache
+C:\Dev\Diagramer\Diagramer.Services\obj\Debug\net6.0\Diagramer.Services.csproj.CopyComplete
+C:\Dev\Diagramer\Diagramer.Services\obj\Debug\net6.0\Diagramer.Services.dll
+C:\Dev\Diagramer\Diagramer.Services\obj\Debug\net6.0\refint\Diagramer.Services.dll
+C:\Dev\Diagramer\Diagramer.Services\obj\Debug\net6.0\Diagramer.Services.pdb
+C:\Dev\Diagramer\Diagramer.Services\obj\Debug\net6.0\ref\Diagramer.Services.dll

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rclleAEj5EUQAD8pKtg6fryJpQCL6dPGV7i6ir3BrVOP8TK7Q0SP1SwnEuBE9GZ7XhlxfZkwfLldbkd1LGYk8w==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Shared\\Diagramer.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CallM\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\CallM\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\CallM\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\CallM\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

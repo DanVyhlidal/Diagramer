@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Diagramer.GUI/App.axaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+        <entry key="Diagramer.GUI/MainWindow.axaml" value="Diagramer.GUI/Diagramer.GUI.csproj" />
+        <entry key="Diagramer.GUI/Styles/CustomDataGrid.axaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+        <entry key="Diagramer.GUI/Styles/DataGrid.xaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+        <entry key="Diagramer.GUI/Views/HomeView.axaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+        <entry key="Diagramer.GUI/Views/MainScreen/Components/MenuItem.axaml" value="Diagramer.GUI/Diagramer.GUI.csproj" />
+        <entry key="Diagramer.GUI/Views/MainScreen/Components/NewProjectItem.axaml" value="Diagramer.GUI/Diagramer.GUI.csproj" />
+        <entry key="Diagramer.GUI/Views/MainScreen/Components/ProjectItem.axaml" value="Diagramer.GUI/Diagramer.GUI.csproj" />
+        <entry key="Diagramer.GUI/Views/MainScreen/MainWindow.axaml" value="Diagramer.GUI/Diagramer.GUI.csproj" />
+        <entry key="Diagramer.GUI/Views/MainView.axaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+        <entry key="Diagramer.GUI/Views/MainWindow.axaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+        <entry key="Diagramer.GUI/Views/MainWindowView.axaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+        <entry key="Diagramer.GUI/Views/NewProjectView.axaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+        <entry key="Diagramer.GUI/Views/ProjectView.axaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+        <entry key="Diagramer.GUI/Views/Projects/ProjectsView.axaml" value="Diagramer.GUI/Diagramer.GUI.csproj" />
+        <entry key="Diagramer/App.axaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+        <entry key="Diagramer/Views/MainWindow.axaml" value="Diagramer.Desktop/Diagramer.Desktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

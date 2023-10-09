@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Diagramer.Facades</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Diagramer.Services.Projects\Diagramer.Services.Projects.csproj" />
+      <ProjectReference Include="..\Diagramer.Services.Settings\Diagramer.Services.Settings.csproj" />
+      <ProjectReference Include="..\Diagramer.Shared\Diagramer.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

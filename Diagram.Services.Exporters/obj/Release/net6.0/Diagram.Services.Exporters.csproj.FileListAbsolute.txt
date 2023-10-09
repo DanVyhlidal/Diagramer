@@ -1,0 +1,17 @@
+C:\Dev\Diagramer\Diagram.Services.Exporters\bin\Release\net6.0\Diagram.Services.Exporters.deps.json
+C:\Dev\Diagramer\Diagram.Services.Exporters\bin\Release\net6.0\Diagram.Services.Exporters.dll
+C:\Dev\Diagramer\Diagram.Services.Exporters\bin\Release\net6.0\Diagram.Services.Exporters.pdb
+C:\Dev\Diagramer\Diagram.Services.Exporters\bin\Release\net6.0\Diagramer.Infrastructure.Exporters.dll
+C:\Dev\Diagramer\Diagram.Services.Exporters\bin\Release\net6.0\Diagramer.Shared.dll
+C:\Dev\Diagramer\Diagram.Services.Exporters\bin\Release\net6.0\Diagramer.Infrastructure.Exporters.pdb
+C:\Dev\Diagramer\Diagram.Services.Exporters\bin\Release\net6.0\Diagramer.Shared.pdb
+C:\Dev\Diagramer\Diagram.Services.Exporters\obj\Release\net6.0\Diagram.Services.Exporters.csproj.AssemblyReference.cache
+C:\Dev\Diagramer\Diagram.Services.Exporters\obj\Release\net6.0\Diagram.Services.Exporters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Diagramer\Diagram.Services.Exporters\obj\Release\net6.0\Diagram.Services.Exporters.AssemblyInfoInputs.cache
+C:\Dev\Diagramer\Diagram.Services.Exporters\obj\Release\net6.0\Diagram.Services.Exporters.AssemblyInfo.cs
+C:\Dev\Diagramer\Diagram.Services.Exporters\obj\Release\net6.0\Diagram.Services.Exporters.csproj.CoreCompileInputs.cache
+C:\Dev\Diagramer\Diagram.Services.Exporters\obj\Release\net6.0\Diagram.Services.Exporters.csproj.CopyComplete
+C:\Dev\Diagramer\Diagram.Services.Exporters\obj\Release\net6.0\Diagram.Services.Exporters.dll
+C:\Dev\Diagramer\Diagram.Services.Exporters\obj\Release\net6.0\refint\Diagram.Services.Exporters.dll
+C:\Dev\Diagramer\Diagram.Services.Exporters\obj\Release\net6.0\Diagram.Services.Exporters.pdb
+C:\Dev\Diagramer\Diagram.Services.Exporters\obj\Release\net6.0\ref\Diagram.Services.Exporters.dll

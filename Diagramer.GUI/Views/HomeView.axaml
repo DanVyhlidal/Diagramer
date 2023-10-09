@@ -1,0 +1,220 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720"
+             xmlns:controls="clr-namespace:Material.Styles.Controls;assembly=Material.Styles"
+             xmlns:material="using:Material.Icons.Avalonia"
+             x:Class="Diagramer.GUI.Views.HomeView">
+    
+    <Grid ShowGridLines="false">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="1">
+            <TabControl Margin="0 25 0 0" Width="750">
+                <TabControl.Items>
+                    <!-- Projects page -->
+                    <TabItem Header="Projects">
+                        <StackPanel Orientation="Vertical">
+                            <Grid Margin="0 25 0 0" >
+                                <TextBox BorderBrush="{Binding $self.Foreground}" 
+                                         BorderThickness="1" Classes="solo" 
+                                         Watermark="Search projects"
+                                         CornerRadius="32" Margin="8"
+                                         MinWidth="150" MaxWidth="150"
+                                         HorizontalAlignment="Left"
+                                         Text="{Binding TextboxSearch, Mode=TwoWay}">
+                                    <TextBox.InnerLeftContent>
+                                        <Border Height="{Binding $parent[TextBox].Height}" Width="{Binding $self.Bounds.Height}">
+                                            <material:MaterialIcon HorizontalAlignment="Center" VerticalAlignment="Center" Kind="Magnify" Width="20" Height="20" />
+                                        </Border>
+                                    </TextBox.InnerLeftContent>
+                                </TextBox>
+                                <controls:FloatingButton IsExtended="True" HorizontalAlignment="Right"
+                                                         Command="{Binding OpenNewProject}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <material:MaterialIcon Kind="PlusThick" Width="20" Height="20" />
+                                        <Label VerticalContentAlignment="Center" FontWeight="Normal" FontSize="13">New project</Label>
+                                    </StackPanel>
+                                </controls:FloatingButton>
+                            </Grid>
+                            
+                            <!-- Data Grid for Projects-->
+                           
+                            <DataGrid IsReadOnly="True" Items="{Binding ProjectsToDisplay}" Margin="0 5 0 0" AutoGenerateColumns="False"
+                                      SelectedItem="{Binding SelectedProject}" DoubleTapped="InputElement_OnDoubleTapped" 
+                                      MaxHeight="400"
+                                      VerticalScrollBarVisibility="Auto">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Project name" 
+                                                        Binding="{Binding Name}"
+                                                        Width="2*"/>
+                                    <DataGridTextColumn Header="Number Of Files" 
+                                                        Binding="{Binding NumberOfFiles}"
+                                                        Width="2*" />
+                                    <DataGridTextColumn Header="Type" 
+                                                        Binding="{Binding Type}"
+                                                        Width="2*" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </StackPanel>
+                    </TabItem>
+                    
+                    <!-- Modificator Settings page -->
+                    <TabItem Header="Modificator Settings" VerticalAlignment="Stretch">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="600"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            
+                            <ScrollViewer Grid.Row="0"
+                                          HorizontalAlignment="Stretch" VerticalAlignment="Top"
+                                          VerticalScrollBarVisibility="Visible">
+                                <StackPanel>
+                                    <!-- Member Access Modifiers -->
+                                    <StackPanel>
+                                        <Label VerticalContentAlignment="Center" HorizontalAlignment="Center" 
+                                               FontWeight="Bold" FontSize="18"
+                                               Content="Member Accessibility Modifiers"
+                                               Margin="0 20 0 10"
+                                        />
+                                        <ItemsControl Grid.Row="1" Items="{Binding MemberAccessibilityModifiers}">
+                                            <ItemsControl.ItemsPanel>
+                                                <ItemsPanelTemplate>
+                                                    <WrapPanel/>
+                                                </ItemsPanelTemplate>
+                                            </ItemsControl.ItemsPanel>
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel Width="350" Margin="5 10" Orientation="Horizontal">
+                                                        <Label VerticalAlignment="Center"
+                                                               Margin="0 5 0 0"
+                                                               FontWeight="Medium" FontSize="20"
+                                                               Content="{Binding OriginalName }"/>
+                                                        <TextBox Classes="outline dense"
+                                                                 Margin="10 0 0 0"
+                                                                 Width="200"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 Text="{Binding ModifiedName}"/>
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </StackPanel>
+                                    
+                                    <!-- Member Modifiers -->
+                                    <StackPanel>
+                                        <Label VerticalContentAlignment="Center" HorizontalAlignment="Center" 
+                                               FontWeight="Bold" FontSize="18"
+                                               Content="Member Modifiers"
+                                               Margin="0 20 0 10"
+                                        />
+                                        <ItemsControl Grid.Row="1" Items="{Binding MemberModifiers}">
+                                            <ItemsControl.ItemsPanel>
+                                                <ItemsPanelTemplate>
+                                                    <WrapPanel/>
+                                                </ItemsPanelTemplate>
+                                            </ItemsControl.ItemsPanel>
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel Width="350" Margin="5 10" Orientation="Horizontal">
+                                                        <Label VerticalAlignment="Center"
+                                                               Margin="0 5 0 0"
+                                                               FontWeight="Medium" FontSize="20"
+                                                               Content="{Binding OriginalName }"/>
+                                                        <TextBox Classes="outline dense"
+                                                                 Margin="10 0 0 0"
+                                                                 Width="200"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 Text="{Binding ModifiedName}"/>
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </StackPanel>
+                                    
+                                    <!-- Type Keywords Modifiers -->
+                                    <StackPanel>
+                                        <Label VerticalContentAlignment="Center" HorizontalAlignment="Center" 
+                                               FontWeight="Bold" FontSize="18"
+                                               Content="Type Keywords Modifiers"
+                                               Margin="0 20 0 10"
+                                        />
+                                        <ItemsControl Grid.Row="1" Items="{Binding TypeKeywords}">
+                                            <ItemsControl.ItemsPanel>
+                                                <ItemsPanelTemplate>
+                                                    <WrapPanel/>
+                                                </ItemsPanelTemplate>
+                                            </ItemsControl.ItemsPanel>
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel Width="350" Margin="5 10" Orientation="Horizontal">
+                                                        <Label VerticalAlignment="Center"
+                                                               Margin="0 5 0 0"
+                                                               FontWeight="Medium" FontSize="20"
+                                                               Content="{Binding OriginalName }"/>
+                                                        <TextBox Classes="outline dense"
+                                                                 Margin="10 0 0 0"
+                                                                 Width="200"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 Text="{Binding ModifiedName}"/>
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </StackPanel>
+                                    
+                                    <!-- Type Modifiers -->
+                                    <StackPanel>
+                                        <Label VerticalContentAlignment="Center" HorizontalAlignment="Center" 
+                                               FontWeight="Bold" FontSize="18"
+                                               Content="Type Modifiers"
+                                               Margin="0 20 0 10"
+                                        />
+                                        <ItemsControl Grid.Row="1" Items="{Binding TypeModifiers}">
+                                            <ItemsControl.ItemsPanel>
+                                                <ItemsPanelTemplate>
+                                                    <WrapPanel/>
+                                                </ItemsPanelTemplate>
+                                            </ItemsControl.ItemsPanel>
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel Width="350" Margin="5 10" Orientation="Horizontal">
+                                                        <Label VerticalAlignment="Center"
+                                                               Margin="0 5 0 0"
+                                                               FontWeight="Medium" FontSize="20"
+                                                               Content="{Binding OriginalName }"/>
+                                                        <TextBox Classes="outline dense"
+                                                                 Margin="10 0 0 0"
+                                                                 Width="200"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 Text="{Binding ModifiedName}"/>
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </StackPanel>
+                                </StackPanel>
+                            </ScrollViewer>
+                            
+                            <controls:FloatingButton Grid.Row="1" IsExtended="True"
+                                                     VerticalAlignment="Bottom" HorizontalAlignment="Center"
+                                                     Margin="0 10"
+                                                     Command="{Binding SaveSettings}">
+                                <StackPanel Orientation="Horizontal">
+                                    <material:MaterialIcon Kind="ContentSaveMoveOutline" Width="20" Height="20" />
+                                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Normal" MinWidth="60" FontSize="13">Save</Label>
+                                </StackPanel>
+                            </controls:FloatingButton>
+                        </Grid>
+                    </TabItem>
+                </TabControl.Items>
+            </TabControl>
+        </StackPanel>
+    </Grid>
+</UserControl>

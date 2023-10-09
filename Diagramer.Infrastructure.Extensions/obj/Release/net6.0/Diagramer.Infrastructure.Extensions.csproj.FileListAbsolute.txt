@@ -1,0 +1,12 @@
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\bin\Release\net6.0\Diagramer.Infrastructure.Extensions.deps.json
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\bin\Release\net6.0\Diagramer.Infrastructure.Extensions.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\bin\Release\net6.0\Diagramer.Infrastructure.Extensions.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\obj\Release\net6.0\Diagramer.Infrastructure.Extensions.csproj.AssemblyReference.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\obj\Release\net6.0\Diagramer.Infrastructure.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\obj\Release\net6.0\Diagramer.Infrastructure.Extensions.AssemblyInfoInputs.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\obj\Release\net6.0\Diagramer.Infrastructure.Extensions.AssemblyInfo.cs
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\obj\Release\net6.0\Diagramer.Infrastructure.Extensions.csproj.CoreCompileInputs.cache
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\obj\Release\net6.0\Diagramer.Infrastructure.Extensions.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\obj\Release\net6.0\refint\Diagramer.Infrastructure.Extensions.dll
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\obj\Release\net6.0\Diagramer.Infrastructure.Extensions.pdb
+C:\Dev\Diagramer\Diagramer.Infrastructure.Extensions\obj\Release\net6.0\ref\Diagramer.Infrastructure.Extensions.dll

@@ -1,0 +1,15 @@
+C:\Dev\Diagramer\Diagramer.Repositories\bin\Release\net6.0\Diagramer.Repositories.deps.json
+C:\Dev\Diagramer\Diagramer.Repositories\bin\Release\net6.0\Diagramer.Repositories.dll
+C:\Dev\Diagramer\Diagramer.Repositories\bin\Release\net6.0\Diagramer.Repositories.pdb
+C:\Dev\Diagramer\Diagramer.Repositories\bin\Release\net6.0\Diagramer.Shared.dll
+C:\Dev\Diagramer\Diagramer.Repositories\bin\Release\net6.0\Diagramer.Shared.pdb
+C:\Dev\Diagramer\Diagramer.Repositories\obj\Release\net6.0\Diagramer.Repositories.csproj.AssemblyReference.cache
+C:\Dev\Diagramer\Diagramer.Repositories\obj\Release\net6.0\Diagramer.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Diagramer\Diagramer.Repositories\obj\Release\net6.0\Diagramer.Repositories.AssemblyInfoInputs.cache
+C:\Dev\Diagramer\Diagramer.Repositories\obj\Release\net6.0\Diagramer.Repositories.AssemblyInfo.cs
+C:\Dev\Diagramer\Diagramer.Repositories\obj\Release\net6.0\Diagramer.Repositories.csproj.CoreCompileInputs.cache
+C:\Dev\Diagramer\Diagramer.Repositories\obj\Release\net6.0\Diagramer.Repositories.csproj.CopyComplete
+C:\Dev\Diagramer\Diagramer.Repositories\obj\Release\net6.0\Diagramer.Repositories.dll
+C:\Dev\Diagramer\Diagramer.Repositories\obj\Release\net6.0\refint\Diagramer.Repositories.dll
+C:\Dev\Diagramer\Diagramer.Repositories\obj\Release\net6.0\Diagramer.Repositories.pdb
+C:\Dev\Diagramer\Diagramer.Repositories\obj\Release\net6.0\ref\Diagramer.Repositories.dll

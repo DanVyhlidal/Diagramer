@@ -1,0 +1,72 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720"
+             xmlns:controls="clr-namespace:Material.Styles.Controls;assembly=Material.Styles"
+             xmlns:avalonia="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
+             x:Class="Diagramer.GUI.Views.NewProjectView">
+    
+    <Grid ShowGridLines="false">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <controls:FloatingButton Grid.Column="0" 
+            Classes="Light Mini"
+            Width="50" Height="50"
+            VerticalContentAlignment="Center" VerticalAlignment="Top"
+            Margin="10 20 "
+            Command="{Binding OpenHomePage}">
+            <avalonia:MaterialIcon Kind="Home" Width="20" Height="20" />
+        </controls:FloatingButton>
+        
+        <Grid ShowGridLines="False" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <StackPanel Grid.Row="0">
+                <Image Source="../Assets/Diagram_Icon.png" Height="50" Width="50" Margin="0 20 0 0"></Image>
+                <Label HorizontalAlignment="Center" Margin="0 5 0 0" FontWeight="Bold" FontSize="24" >Create a new Project</Label>
+            </StackPanel>
+            
+            <StackPanel Grid.Row="1" Margin="0 25 0 0">
+                <Label HorizontalAlignment="Center" Margin="0 5 0 0" FontWeight="Medium" FontSize="18">Name of the project</Label>
+                <TextBox UseFloatingWatermark="False" Classes="outline dense" Watermark="e.g.: Diagramer" Text="{Binding Project.Name, Mode=TwoWay}"/>
+                <Label HorizontalAlignment="Center" Margin="0 5 0 0" FontWeight="Medium" FontSize="18">Select files</Label>
+                <Button Name="SelectFilesButton"
+                        MaxWidth="150"
+                        Classes="Dark"
+                        Content="Select"
+                        Command="{Binding SelectFiles}"
+                        ToolTip.Tip=".cs files, .csproj"/>
+                
+                <controls:Card Padding="0,4">
+                    <ListBox Items="{Binding SelectedFiles}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Border Background="Red" CornerRadius="4" Padding="4">
+                                    <TextBlock Text="{Binding SelectFiles}"/>
+                                </Border>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </controls:Card>
+            </StackPanel>
+            
+            <controls:FloatingButton Grid.Row="3" 
+                                     Margin="0 0 0 25"
+                                     IsExtended="True"
+                                     Content="Continue"
+                                     HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                     Command="{Binding CreateNewProject}"/>
+        </Grid>
+    </Grid>
+</UserControl>

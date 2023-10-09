@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "+yz5kfdlRzAKbsdpH3v4dUoKjNNkUkh4vMnTm8KgP2o=",
+  "Source": "Diagramer.API",
+  "BasePath": "_content/Diagramer.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Diagramer.API\\wwwroot",
+      "Source": "Diagramer.API",
+      "ContentRoot": "C:\\Dev\\Diagramer\\Diagramer.API\\wwwroot\\",
+      "BasePath": "_content/Diagramer.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

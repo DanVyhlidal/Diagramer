@@ -1,0 +1,134 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720"
+             xmlns:local = "clr-namespace:Diagramer.GUI.Core"
+             xmlns:controls="clr-namespace:Material.Styles.Controls;assembly=Material.Styles"
+             xmlns:avalonia="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
+             x:Class="Diagramer.GUI.Views.ProjectView">
+    
+    <UserControl.Resources>
+        <local:ByteToBitmapConverter x:Key="byteToMapConverter" />
+    </UserControl.Resources>
+    <Grid ShowGridLines="false">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Column="0" Margin="20 0 0 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <controls:FloatingButton Grid.Row="0"
+                                     Classes="Light Mini"
+                                     Width="50" Height="50"
+                                     VerticalContentAlignment="Center" VerticalAlignment="Top"
+                                     HorizontalAlignment="Left" HorizontalContentAlignment="Center"
+                                     Margin="10 20 "
+                                     Command="{Binding OpenHomePage}"
+                                     >
+                <avalonia:MaterialIcon Kind="Home" Width="20" Height="20" />
+            </controls:FloatingButton>
+            <StackPanel Grid.Row="1" Margin="0 50 0 0">
+                <Label HorizontalAlignment="Center" Margin="0 5 0 0" FontWeight="Medium" FontSize="18">Files</Label>
+                <TextBox UseFloatingWatermark="False" Classes="outline dense" Watermark="Search classes" Margin="0 0 0 10" 
+                         Text="{Binding SearchBarText, Mode=TwoWay}"/>
+                <Grid Height="400" Margin="0 10">
+                    <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Top"
+                                  VerticalScrollBarVisibility="Visible">
+                        <ItemsControl Items="{Binding Files}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical" Spacing="10"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CheckBox IsVisible="{Binding IsInSearch}" Content="{Binding FileName}" IsChecked="{Binding IsSelected}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </Grid>
+            </StackPanel>
+            <StackPanel Grid.Row="3">
+                <controls:FloatingButton  
+                    Margin="0 0 0 10"
+                    IsExtended="True"
+                    Classes="Accent"
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    Command="{Binding GenerateDiagram}">
+                    <StackPanel Orientation="Horizontal">
+                        <avalonia:MaterialIcon Kind="PageNext" Width="20" Height="20" />
+                        <Label>Generate Diagram</Label>
+                    </StackPanel>
+                </controls:FloatingButton>
+                <controls:FloatingButton  
+                    Margin="0 0 0 25"
+                    IsExtended="True"
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    Command="{Binding ExportDiagram}">
+                    <StackPanel Orientation="Horizontal">
+                        <avalonia:MaterialIcon Kind="Export" Width="20" Height="20" />
+                        <Label>Export diagram</Label>
+                    </StackPanel>
+                </controls:FloatingButton>
+            </StackPanel>
+        </Grid>
+        
+        <Grid ShowGridLines="false" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <StackPanel Grid.Row="0">
+                <Image Source="../Assets/Diagram_Icon.png" Height="50" Width="50" Margin="0 20 0 0"></Image>
+                <Label Content="{Binding Project.Name}" HorizontalAlignment="Center" Margin="0 5 0 0" FontWeight="Bold" FontSize="24" />
+            </StackPanel>
+            
+            <TabControl Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" Margin="0 25 0 0" TabStripPlacement="Top" SelectedIndex="{Binding SelectedDiagram }">
+                <TabControl.Items>
+                    <TabItem  Header="Class Diagram" Margin="0 0  25 0">
+                    </TabItem>
+                    <TabItem Header="Dependency Diagram" Margin="0 0  25 0">
+                    </TabItem>
+                    <TabItem Header="Method Flow Diagram" Margin="0 0  25 0" IsEnabled="False">
+                    </TabItem>
+                    <TabItem Header="Individual Diagram" IsEnabled="{Binding IsSelectedOneFile}">
+                    </TabItem>
+                </TabControl.Items>
+            </TabControl>
+            <Grid Grid.Row="2" Height="200">
+                <Label IsVisible="{Binding !DiagramImage.IsImageEnabled}" HorizontalAlignment="Center" Margin="0 5 0 0" FontWeight="Medium" FontSize="18" VerticalAlignment="Center">Select files and click on generate</Label>
+                <StackPanel Orientation="Vertical">
+                    <controls:FloatingButton  
+                        Margin="0 10"
+                        IsExtended="True"
+                        Classes="Accent"
+                        HorizontalAlignment="Right"
+                        HorizontalContentAlignment="Right" VerticalContentAlignment="Center"
+                        Command="{Binding ShareDiagram}"
+                        IsVisible="{Binding DiagramImage.IsImageEnabled}">
+                        <StackPanel Orientation="Horizontal">
+                            <avalonia:MaterialIcon Kind="ShareVariantOutline" Width="20" Height="20" />
+                            <Label>Share</Label>
+                        </StackPanel>
+                    </controls:FloatingButton>
+                    <Image IsVisible="{Binding DiagramImage.IsImageEnabled}"
+                           Source="{Binding DiagramImage.ImageData, Converter={StaticResource byteToMapConverter}}"
+                           MaxWidth="900"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

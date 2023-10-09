@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "inmee8Klg5ciUEMT08mrBYY+z1kIJhV/C87mVkuAjdftG76O2tjwz2O+41NcCzEra6HT87veLVYd5yiEXWg0ug==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\School\\UCN\\school\\Diagramer\\Ship this\\Diagramer\\SourceCode\\Diagramer.Infrastructure.Extensions\\Diagramer.Infrastructure.Extensions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CallM\\.nuget\\packages\\splat\\14.4.1\\splat.14.4.1.nupkg.sha512",
+    "C:\\Users\\CallM\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\CallM\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\CallM\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

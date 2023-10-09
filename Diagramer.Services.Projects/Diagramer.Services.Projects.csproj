@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Diagramer.Services.Projects</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Diagramer.Infrastructure.FileManagement\Diagramer.Infrastructure.FileManagement.csproj" />
+      <ProjectReference Include="..\Diagramer.Repositories\Diagramer.Repositories.csproj" />
+      <ProjectReference Include="..\Diagramer.Shared\Diagramer.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Buildalyzer" Version="4.1.5" />
+    </ItemGroup>
+
+</Project>

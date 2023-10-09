@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Diagramer.GUI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+    <TrimmerRootDescriptor Include="Roots.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />
+    <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.0.0-preview4" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="$(AvaloniaVersion)" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="$(AvaloniaVersion)" />
+    <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
+    <PackageReference Include="DevExpress.Data" Version="22.2.4-pre-22360" />
+    <PackageReference Include="DialogHost.Avalonia" Version="0.7.0-preview2" />
+    <PackageReference Include="Material.Avalonia" Version="3.0.0-avalonia11-preview2.137-nightly" />
+    <PackageReference Include="Material.Icons.Avalonia" Version="1.2.0" />
+    <PackageReference Include="SkiaSharp" Version="2.88.3" />
+    <PackageReference Include="Svg.Skia" Version="0.5.18" />
+    <PackageReference Include="XamlNameReferenceGenerator" Version="1.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Diagram.Services.Exporters\Diagram.Services.Exporters.csproj" />
+    <ProjectReference Include="..\Diagramer.Repositories\Diagramer.Repositories.csproj" />
+    <ProjectReference Include="..\Diagramer.Services.Diagrams\Diagramer.Services.Diagrams.csproj" />
+    <ProjectReference Include="..\Diagramer.Services.Projects\Diagramer.Services.Projects.csproj" />
+    <ProjectReference Include="..\Diagramer.Services.Settings\Diagramer.Services.Settings.csproj" />
+    <ProjectReference Include="..\Diagramer.Shared\Diagramer.Shared.csproj" />
+  </ItemGroup>
+</Project>
